@@ -1,7 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'GroupEntries',
+      #baseline : 'TypoTolerance',
       #directory : 'src',
       #platforms : [ #pharo ]
     }
