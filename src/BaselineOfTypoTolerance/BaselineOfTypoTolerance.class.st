@@ -8,14 +8,14 @@ Class {
 { #category : 'baselines' }
 BaselineOfTypoTolerance >> baseline: spec [
 	spec for: #common do: [
-		spec postLoadDoIt: #postload.
+		spec postLoadDoIt: ##postload:package:..
 			spec
 				package: #'Typo-Tolerance';
 				package: #'Typo-Tolerance-Tests' with: [ spec requires: #( 'Typo-Tolerance' ) ] ]
 ]
 
 { #category : 'baselines' }
-BaselineOfTypoTolerance >> postload [
+BaselineOfTypoTolerance >> postload: loader package: packageSpec [
 
 	Smalltalk globals
 		at: #CoCompletionTolerance
