@@ -9,8 +9,9 @@ Typo Tolerance is a Pharo extension that preserves prefix matching as the primar
 
 ---
 
-<img width="571" height="283" alt="TypoTolerance" src="https://github.com/user-attachments/assets/523efd67-1e94-4377-bcc4-dc4dd0a6c04e" />
+# Example:
 
+<img width="924" height="652" alt="TypoTolerance" src="https://github.com/user-attachments/assets/084742a9-976d-430b-affa-1ff74ee1b78d" />
 
 ---
 
