@@ -7,7 +7,6 @@ Class {
 
 { #category : 'baselines' }
 BaselineOfTypoTolerance >> baseline: spec [
-
 	spec for: #common do: [
 		spec postLoadDoIt: #postload.
 			spec
@@ -16,7 +15,7 @@ BaselineOfTypoTolerance >> baseline: spec [
 ]
 
 { #category : 'baselines' }
-BaselineOfTypoTolerance >> postload: loader package: packageSpec [
+BaselineOfTypoTolerance >> postload [
 
 	Smalltalk globals
 		at: #CoCompletionTolerance
